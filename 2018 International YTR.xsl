@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<!-- NOTE: THIS IS A TEST STATEMENT _ DO NOT USE . -->
+<!-- International Total Rewards Statement - Shobhit Chandra (sc106r) . -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   
   <xsl:decimal-format decimal-separator="," grouping-separator="&#160;" name="FrenchDecimalFormat"/>
   <xsl:decimal-format decimal-separator="." grouping-separator="," name="USDecimalFormat"/>
   <!--	<xsl:param name="STATUS"/>    Tried to use this to determine if someone is Active or Inactive, but the value was null -->
-  <!-- Routines to convert scientific notation - begin -->
+  
   <xsl:template name="Scientific">
     <xsl:param name="Num"/>
     <xsl:param name="DefaultNum" select="0"/>
