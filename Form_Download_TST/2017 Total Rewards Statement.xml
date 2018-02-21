@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sf-form PUBLIC
+ "-//SuccessFactors, Inc.//DTD V4 Form 1.0//EN"
+ "http://svn/viewvc/svn/V4/trunk/src/com/sf/dtd/sf-form.dtd?view=co">
+<sf-form locale="en_US">
+  <fm-meta>
+    <meta-form-id>-1</meta-form-id>
+    <meta-rated>true</meta-rated>
+    <meta-rating>0.0</meta-rating>
+    <meta-scale>0.0</meta-scale>
+    <meta-grp-label><![CDATA[Group]]></meta-grp-label>
+    <fm-sect-scale show-value="true">
+      <scale-source>1</scale-source>
+      <scale-id><![CDATA[Performance Evaluation]]></scale-id>
+      <scale-type><![CDATA[DROPDOWN]]></scale-type>
+    </fm-sect-scale>
+    <meta-item-weight-floor-ceiling-option>warning</meta-item-weight-floor-ceiling-option>
+  </fm-meta>
+  <sf-compensation>
+    <comp-plan-id>0</comp-plan-id>
+    <comp-plan-group-id>0</comp-plan-group-id>
+
+    <comp-plan-budget4Salary>0</comp-plan-budget4Salary>
+    <comp-plan-budget4Bonus>0</comp-plan-budget4Bonus>
+    <comp-plan-budget4Stock>0</comp-plan-budget4Stock>
+    <comp-plan-budget4Option>0</comp-plan-budget4Option>
+    <comp-plan-budget4StockUnits>0</comp-plan-budget4StockUnits>
+    <comp-plan-budget4StockOther1>0</comp-plan-budget4StockOther1>
+    <comp-plan-budget4StockOther2>0</comp-plan-budget4StockOther2>
+    <comp-plan-budget4StockOther3>0</comp-plan-budget4StockOther3>
+    <comp-plan-allocated4Salary>0</comp-plan-allocated4Salary>
+    <comp-plan-allocated4Bonus>0</comp-plan-allocated4Bonus>
+    <comp-plan-allocated4StockUnits>0</comp-plan-allocated4StockUnits>
+    <comp-plan-allocated4Stock>0</comp-plan-allocated4Stock>
+    <comp-plan-allocated4Option>0</comp-plan-allocated4Option>
+    <comp-plan-allocated4StockOther1>0</comp-plan-allocated4StockOther1>
+    <comp-plan-allocated4StockOther2>0</comp-plan-allocated4StockOther2>
+    <comp-plan-allocated4StockOther3>0</comp-plan-allocated4StockOther3>
+    <comp-plan-totalStockPartGuide>0</comp-plan-totalStockPartGuide>
+    <comp-plan-totalStockPartAllocated>0</comp-plan-totalStockPartAllocated>
+    <comp-config showFormRatingAs="text" functionalCurrencyCode="USD" baseCurrencyView="localCurrencyCentric" statementCurrencyView="localCurrencyCentric" makeCustomDataReportable="true" checkRatingSourceAcrossTemplates="false" autoSyncP4PData="false" enableGuidelineOptimization="true" isUserIneligibleByDefault="true">
+      <comp-include includeTotal="true" includeBudget="true">
+        <comp-include-salary includeSalaryUserNameRight="false" includeEmployeeFirstName="false" includeExecRuleViolation="false" includeEmployeeLastName="false" includeMgrLastName="true" includeMgrFirstName="true" includeSalaryMgrId="false" includeMgrLastNameInForm="false" includeMgrFirstNameInForm="false" includeSalaryUserNamePreData="true" includeJobTitle="true" includeJobLevel="false" includePayGrade="true" includeFinalPayGrade="false" includeFinalPayGuide="false" includeStartDate="false" includeProrating="false" includeSalaryProratingStartDate="false" includeSalaryProratingEndDate="false" includePMRating="false" includeCompRating="false" includeCurSalary="false" includeCurRatio="false" includeCurRangePenetration="false" includePayGuide="false" includeEligible="false" includePMCompleted="false" includeWithinGuidelines="false" includeCompliance="false" includePromo="false" includeMerit="false" includeExtra="false" includeExtra2="false" includeRaiseProrating="false" includeRaiseProratingStartDate="false" includeRaiseProratingEndDate="false" includeTotalRaise="false" includeTotalIncrease="false" includeCompaRatio="false" includeRangePenetration="false" includeLumpSumTarget="false" includeLumpSum="false" includeLumpSum2Target="false" includeLumpSum2="false" includeTotalLumpSum="false" includeLocalCurrencyCode="true" includeCurrentSalaryLocal="false" includeFinalSalaryLocal="false" includeTotalCompLocal="false" includeSalaryRateType="false" includeSalaryRateUnits="false" includeFTE="false" includeSalaryRateLocal="false" includeSalaryRatePlan="false" includeSalaryRateFinal="false" includeTotalComp="false" includeFinalSalary="false" includeMeritGuideline="false" includeLumpSumGuideline="false" includeLumpSum2Guideline="false" includePromoDate="false" includeMeritDate="false" includeExtraDate="false" includeExtra2Date="false" includeLumpsumDate="false" includeLumpsum2Date="false" includePromoNet="false" includeMeritNet="false" includeExtraNet="false" includeExtra2Net="false" includeSalaryNotes="false" includeSalaryStatementLink="true" includeJobFamily="false" includeJobRole="false" includeJobCode="false" includeFinalJobFamily="false" includeFinalJobRole="false" includeFinalJobCode="false" includeJobSelector="false">
+          <comp-currency-view includeFunctionalCurrency="true" includePlannerCurrency="true" includeEmployeeLocalCurrency="true" />
+          <comp-youcalc-application appID="41" appDisplayHeight="200" showInExecutiveReview="true">
+            <comp-field-label lang="en_US"><![CDATA[YouCalc Quick Metrics]]></comp-field-label>
+          </comp-youcalc-application>
+        </comp-include-salary>
+        <comp-include-summary includeSummaryDefault="true" includeSummaryRateFinal="false" includeSummaryTotalCompensation="false" includeSummaryPMRating="false" includeSummaryCompRating="false"></comp-include-summary>
+        <comp-include-report></comp-include-report>
+      </comp-include>
+      <comp-number-format-ext id="defMoneyFormat" mode="truncate" useFor="money">
+        <comp-number-format-ext-format><![CDATA[#,##0]]></comp-number-format-ext-format>
+      </comp-number-format-ext>
+      <comp-number-format-ext id="defPercentFormat" mode="truncate" useFor="percent">
+        <comp-number-format-ext-format><![CDATA[#,##0.00]]></comp-number-format-ext-format>
+      </comp-number-format-ext>
+      <comp-number-format-ext id="defAmountFormat" mode="truncate" useFor="amount">
+        <comp-number-format-ext-format><![CDATA[#,##0.00]]></comp-number-format-ext-format>
+      </comp-number-format-ext>
+      <comp-number-format-ext id="defRatingFormat" mode="truncate" useFor="rating">
+        <comp-number-format-ext-format><![CDATA[#,##0.##]]></comp-number-format-ext-format>
+      </comp-number-format-ext>
+      <comp-number-format-ext id="defRatioValueFormat" useFor="ratio-value">
+        <comp-number-format-ext-format><![CDATA[#,##0.00]]></comp-number-format-ext-format>
+      </comp-number-format-ext>
+      <comp-number-format-ext id="defProrationFormat" useFor="proration">
+        <comp-number-format-ext-format><![CDATA[#,##0.00]]></comp-number-format-ext-format>
+      </comp-number-format-ext>
+      <comp-field-definition id="CompATTUID" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="COMP_EE_ATTUID" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="1" reportable="true">
+        <comp-field-label><![CDATA[ATTUID]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="userNamePreData" isCustomField="false" isVisible="true" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="1">
+        <comp-field-label><![CDATA[Employee Name]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="jobTitle" isCustomField="false" isVisible="true" useFor="salary" readOnly="false" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="3">
+        <comp-field-label><![CDATA[Title]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="payGrade" isCustomField="false" isVisible="true" useFor="salary" readOnly="false" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="false" displayOrder="4">
+        <comp-field-label><![CDATA[Pay Grade]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="localCurrencyCode" isCustomField="false" isVisible="true" useFor="salary" readOnly="false" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="5">
+        <comp-field-label><![CDATA[Local Currency Code]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="curSalaryLocal" isCustomField="false" isVisible="true" useFor="salary" readOnly="false" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="8">
+        <comp-field-label><![CDATA[Current Salary in Local Currency]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-group id="currSalGroup" useFor="salary" displayOrder="8" backgroundColor="E6AE92">
+        <comp-field-label><![CDATA[Current Base Salary]]></comp-field-label>
+        <comp-field-definition id="OverrideCurrency" isCustomField="true" isVisible="true" type="string" useFor="salary" readOnly="false" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="8" reportable="true">
+          <comp-field-label><![CDATA[Override Currency]]></comp-field-label>
+        </comp-field-definition>
+        <comp-field-definition id="OverrideSalary" isCustomField="true" isVisible="true" type="money" useFor="salary" importKey="STMT_SALARY" readOnly="false" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="8" reportable="true" needCalcTotal="false">
+          <comp-field-label><![CDATA[Override Salary]]></comp-field-label>
+        </comp-field-definition>
+      </comp-field-group>
+      <comp-field-group id="recommendGroup" useFor="salary" displayOrder="15" backgroundColor="F5AA2F">
+        <comp-field-label><![CDATA[Base Salary Increase]]></comp-field-label>
+        <comp-field-definition id="OverrideMeritAmt" isCustomField="true" isVisible="true" type="money" useFor="salary" readOnly="false" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="15" reportable="true" needCalcTotal="false">
+          <comp-field-label><![CDATA[Override Merit Amount]]></comp-field-label>
+        </comp-field-definition>
+        <comp-field-definition id="OverrideMeritPct" isCustomField="true" isVisible="true" type="percent" useFor="salary" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="15" reportable="true">
+          <comp-field-label><![CDATA[Override Merit Percent]]></comp-field-label>
+        </comp-field-definition>
+        <comp-field-definition id="ActualCurSalary" isCustomField="true" isVisible="false" type="money" useFor="salary" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="15" needCalcTotal="false" exportable="false">
+          <comp-field-label><![CDATA[Hidden Actual Current Salary]]></comp-field-label>
+        </comp-field-definition>
+        <comp-field-definition id="ActualMeritAmt" isCustomField="true" isVisible="false" type="money" useFor="salary" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="15" needCalcTotal="false" exportable="false">
+          <comp-field-label><![CDATA[Hidden Actual Merit $]]></comp-field-label>
+        </comp-field-definition>
+        <comp-field-definition id="ActualMeritPct" isCustomField="true" isVisible="false" type="percent" useFor="salary" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="15" exportable="false">
+          <comp-field-label><![CDATA[Hidden Actual Merit %]]></comp-field-label>
+        </comp-field-definition>
+        <comp-field-definition id="OverrideNewSalary" isCustomField="true" isVisible="true" type="money" useFor="salary" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="15" reportable="true" needCalcTotal="true">
+          <comp-field-label><![CDATA[Override New Base Salary]]></comp-field-label>
+          <comp-custom-field-formula><![CDATA[ActualCurSalary + ActualMeritAmt]]></comp-custom-field-formula>
+        </comp-field-definition>
+      </comp-field-group>
+      <comp-field-definition id="Category1" isCustomField="true" isVisible="true" type="amount" useFor="salary" importKey="TRS_Category1" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="16" reportable="true" needCalcTotal="false">
+        <comp-field-label><![CDATA[Category 1]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Categroy1_Title" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category1_Title" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="17" reportable="true">
+        <comp-field-label><![CDATA[Category 1 Title]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category1Description" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category1Description" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="18" reportable="true">
+        <comp-field-label><![CDATA[Category 1 Description]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category2" isCustomField="true" isVisible="true" type="amount" useFor="salary" importKey="TRS_Category2" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="19" reportable="true" needCalcTotal="false">
+        <comp-field-label><![CDATA[Category 2]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category2Title" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category2Title" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="20" reportable="true">
+        <comp-field-label><![CDATA[Category 2 Title]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category2Description" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category2Description" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="21" reportable="true">
+        <comp-field-label><![CDATA[Category 2 Description]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category3" isCustomField="true" isVisible="true" type="amount" useFor="salary" importKey="TRS_Category3" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="22" reportable="true" needCalcTotal="false">
+        <comp-field-label><![CDATA[Category 3]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category3Title" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category3Title" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="23" reportable="true">
+        <comp-field-label><![CDATA[Category 3 Title]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category3Description" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category3Description" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="24" reportable="true">
+        <comp-field-label><![CDATA[Category 3 Description]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category4" isCustomField="true" isVisible="true" type="amount" useFor="salary" importKey="TRS_Category4" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="25" reportable="true" needCalcTotal="false">
+        <comp-field-label><![CDATA[Category 4]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category4Title" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category4Title" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="26" reportable="true">
+        <comp-field-label><![CDATA[Category 4 Title]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category4Description" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category4Description" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="27" reportable="true">
+        <comp-field-label><![CDATA[Category 4 Description]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category5" isCustomField="true" isVisible="true" type="amount" useFor="salary" importKey="TRS_Category5" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="28" reportable="true" needCalcTotal="false">
+        <comp-field-label><![CDATA[Category 5]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category5Title" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category5Title" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="29" reportable="true">
+        <comp-field-label><![CDATA[Category 5 Title]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category5Description" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category5Description" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="30" reportable="true">
+        <comp-field-label><![CDATA[Category 5 Description]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category6" isCustomField="true" isVisible="true" type="amount" useFor="salary" importKey="TRS_Category6" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="31" reportable="true" needCalcTotal="false">
+        <comp-field-label><![CDATA[Category 6]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category6Title" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category6Title" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="32" reportable="true">
+        <comp-field-label><![CDATA[Category 6 Title]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category6Description" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category6Description" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="33" reportable="true">
+        <comp-field-label><![CDATA[Category 6 Description]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category7" isCustomField="true" isVisible="true" type="amount" useFor="salary" importKey="TRS_Category7" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="34" reportable="true" needCalcTotal="false">
+        <comp-field-label><![CDATA[Category 7]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category7Title" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category7Title" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="35" reportable="true">
+        <comp-field-label><![CDATA[Category 7 Title]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category7Description" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category7Description" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="36" reportable="true">
+        <comp-field-label><![CDATA[Category 7 Description]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category8" isCustomField="true" isVisible="true" type="amount" useFor="salary" importKey="TRS_Category8" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="37" reportable="true" needCalcTotal="false">
+        <comp-field-label><![CDATA[Category 8]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category8Title" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category8Title" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="38" reportable="true">
+        <comp-field-label><![CDATA[Category 8 Title]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category8Description" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category8Description" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="39" reportable="true">
+        <comp-field-label><![CDATA[Category 8 Description]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category9" isCustomField="true" isVisible="true" type="amount" useFor="salary" importKey="TRS_Category9" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="40" reportable="true" needCalcTotal="false">
+        <comp-field-label><![CDATA[Category 9]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category9Title" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category9Title" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="41" reportable="true">
+        <comp-field-label><![CDATA[Category 9 Title]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category9Description" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category9Description" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="42" reportable="true">
+        <comp-field-label><![CDATA[Category 9 Description]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category10" isCustomField="true" isVisible="true" type="amount" useFor="salary" importKey="TRS_Category10" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="43" reportable="true" needCalcTotal="false">
+        <comp-field-label><![CDATA[Category 10]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category10Title" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category10Title" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="44" reportable="true">
+        <comp-field-label><![CDATA[Category 10 Title]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category10Description" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category10Description" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="45" reportable="true">
+        <comp-field-label><![CDATA[Category 10 Description]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category11" isCustomField="true" isVisible="true" type="amount" useFor="salary" importKey="TRS_Category11" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="46" reportable="true" needCalcTotal="false">
+        <comp-field-label><![CDATA[Category 11]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category11Title" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category11Title" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="47" reportable="true">
+        <comp-field-label><![CDATA[Category 11 Title]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category11Description" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category11Description" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="48" reportable="true">
+        <comp-field-label><![CDATA[Category 11 Description]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category12" isCustomField="true" isVisible="true" type="amount" useFor="salary" importKey="TRS_Category12" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="49" reportable="true" needCalcTotal="false">
+        <comp-field-label><![CDATA[Category 12]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category12Title" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category12Title" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="50" reportable="true">
+        <comp-field-label><![CDATA[Category 12 Title]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category12Description" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category12Description" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="51" reportable="true">
+        <comp-field-label><![CDATA[Category 12 Description]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category13" isCustomField="true" isVisible="true" type="amount" useFor="salary" importKey="TRS_Category13" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="52" reportable="true" needCalcTotal="false">
+        <comp-field-label><![CDATA[Category 13]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category13Title" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category13Title" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="53" reportable="true">
+        <comp-field-label><![CDATA[Category 13 Title]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category13Description" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category13Description" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="54" reportable="true">
+        <comp-field-label><![CDATA[Category 13 Description]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category14" isCustomField="true" isVisible="true" type="amount" useFor="salary" importKey="TRS_Category14" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="55" reportable="true" needCalcTotal="false">
+        <comp-field-label><![CDATA[Category 14]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category14Title" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category14Title" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="56" reportable="true">
+        <comp-field-label><![CDATA[Category 14 Title]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category14Description" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category14Description" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="57" reportable="true">
+        <comp-field-label><![CDATA[Category 14 Description]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category15" isCustomField="true" isVisible="true" type="amount" useFor="salary" importKey="TRS_Category15" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="58" reportable="true" needCalcTotal="true">
+        <comp-field-label><![CDATA[Category 15]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category15Title" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category15Title" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="59" reportable="true">
+        <comp-field-label><![CDATA[Category 15 Title]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category15Description" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category15Description" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="60" reportable="true">
+        <comp-field-label><![CDATA[Category 15 Description]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category16" isCustomField="true" isVisible="true" type="amount" useFor="salary" importKey="TRS_Category16" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="61" reportable="true" needCalcTotal="false">
+        <comp-field-label><![CDATA[Category 16]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category16Title" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category16Title" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="62" reportable="true">
+        <comp-field-label><![CDATA[Category 16 Title]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category16Description" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category16Description" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="63" reportable="true">
+        <comp-field-label><![CDATA[Category 16 Description]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category17" isCustomField="true" isVisible="true" type="amount" useFor="salary" importKey="TRS_Category17" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="64" reportable="true" needCalcTotal="false">
+        <comp-field-label><![CDATA[Category 17]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category17Title" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category17Title" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="65" reportable="true">
+        <comp-field-label><![CDATA[Category 17 Title]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category17Description" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category17Description" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="66">
+        <comp-field-label><![CDATA[Category 17 Description]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category18" isCustomField="true" isVisible="true" type="amount" useFor="salary" importKey="TRS_Category18" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="67" reportable="true" needCalcTotal="false">
+        <comp-field-label><![CDATA[Category 18]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category18Title" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category18Title" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="68" reportable="true">
+        <comp-field-label><![CDATA[Category 18 Title]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category18Description" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category18Description" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="69">
+        <comp-field-label><![CDATA[Category 18 Description]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category19" isCustomField="true" isVisible="true" type="amount" useFor="salary" importKey="TRS_Category19" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="70" reportable="true" needCalcTotal="false">
+        <comp-field-label><![CDATA[Category 19]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category19Title" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category19Title" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="71" reportable="true">
+        <comp-field-label><![CDATA[Category 19 Title]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category19Description" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category19Description" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="72">
+        <comp-field-label><![CDATA[Category 19 Description]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category20" isCustomField="true" isVisible="true" type="amount" useFor="salary" importKey="TRS_Category20" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="false" displayOrder="73" reportable="true" needCalcTotal="false">
+        <comp-field-label><![CDATA[Category 20]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category20Title" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category20Title" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="74" reportable="true">
+        <comp-field-label><![CDATA[Category 20 Title]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category20Description" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category20Description" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="75">
+        <comp-field-label><![CDATA[Category 20 Description]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category21" isCustomField="true" isVisible="true" type="amount" useFor="salary" importKey="TRS_Category21" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="76" reportable="true" needCalcTotal="false">
+        <comp-field-label><![CDATA[Category 21]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category21Title" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category21Title" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="77" reportable="true">
+        <comp-field-label><![CDATA[Category 21 Title]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category21Description" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category21Description" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="78">
+        <comp-field-label><![CDATA[Category 21 Description]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category22" isCustomField="true" isVisible="true" type="amount" useFor="salary" importKey="TRS_Category22" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="79" reportable="true" needCalcTotal="false">
+        <comp-field-label><![CDATA[Category 22]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category22Title" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category22Title" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="80" reportable="true">
+        <comp-field-label><![CDATA[Category 22 Title]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category22Description" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category22Description" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="81">
+        <comp-field-label><![CDATA[Category 22 Description]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category23" isCustomField="true" isVisible="true" type="amount" useFor="salary" importKey="TRS_Category23" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="82" reportable="true" needCalcTotal="false">
+        <comp-field-label><![CDATA[Category 23]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category23Title" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category23Title" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="83">
+        <comp-field-label><![CDATA[Category 23 Title]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category23Description" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category23Description" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="84">
+        <comp-field-label><![CDATA[Category 23 Description]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category24" isCustomField="true" isVisible="false" type="amount" useFor="salary" importKey="TRS_Category24" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="85" reportable="true" needCalcTotal="false" exportable="false">
+        <comp-field-label><![CDATA[Category 24]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category24Title" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category24Title" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="86">
+        <comp-field-label><![CDATA[Category 24 Title]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category24Description" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category24Description" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="87">
+        <comp-field-label><![CDATA[Category 24 Description]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category25" isCustomField="true" isVisible="true" type="amount" useFor="salary" importKey="TRS_Category25" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="88" reportable="true" needCalcTotal="false">
+        <comp-field-label><![CDATA[Category 25]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category25Title" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category25Title" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="89">
+        <comp-field-label><![CDATA[Category 25 Title]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category25Description" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category25Description" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="90">
+        <comp-field-label><![CDATA[Category 25 Description]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category26" isCustomField="true" isVisible="true" type="amount" useFor="salary" importKey="TRS_Category26" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="91" reportable="true" needCalcTotal="false">
+        <comp-field-label><![CDATA[Category 26]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category26Title" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category26Title" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="92">
+        <comp-field-label><![CDATA[Category 26 Title]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category26Description" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category26Description" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="93">
+        <comp-field-label><![CDATA[Category 26 Description]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category27" isCustomField="true" isVisible="true" type="amount" useFor="salary" importKey="TRS_Category27" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="94" needCalcTotal="false">
+        <comp-field-label><![CDATA[Category 27]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category27Title" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category27Title" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="95">
+        <comp-field-label><![CDATA[Category 27 Title]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category27Description" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category27Description" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="96">
+        <comp-field-label><![CDATA[Category 27 Description]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category28" isCustomField="true" isVisible="true" type="amount" useFor="salary" importKey="TRS_Category28" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="97" reportable="true" needCalcTotal="false">
+        <comp-field-label><![CDATA[Category 28]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category28Title" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category28Title" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="98">
+        <comp-field-label><![CDATA[Category 28 Title]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category28Description" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category28Description" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="99">
+        <comp-field-label><![CDATA[Category 28 Description]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category29" isCustomField="true" isVisible="true" type="amount" useFor="salary" importKey="TRS_Category29" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="100" reportable="true" needCalcTotal="false">
+        <comp-field-label><![CDATA[Category 29]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category29Title" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category29Title" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="101">
+        <comp-field-label><![CDATA[Category 29 Title]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category29Description" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category29Description" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="102">
+        <comp-field-label><![CDATA[Category 29 Description]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category30" isCustomField="true" isVisible="true" type="amount" useFor="salary" importKey="TRS_Category30" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="103" reportable="true" needCalcTotal="false">
+        <comp-field-label><![CDATA[Category 30]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category30Title" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category30Title" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="104">
+        <comp-field-label><![CDATA[Category 30 Title]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="Category30Description" isCustomField="true" isVisible="true" type="string" useFor="salary" importKey="TRS_Category30Description" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" displayOrder="105">
+        <comp-field-label><![CDATA[Category 30 Description]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="userName" isCustomField="false" isVisible="true" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true">
+        <comp-field-label><![CDATA[Employee Name]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="compensationEligible" isCustomField="false" isVisible="true" importKey="COMPSTMT_FORM_ELIGIBLE" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true">
+        <comp-field-label><![CDATA[compensationEligible]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="salaryEligible" isCustomField="false" isVisible="true" importKey="COMPSTMT_FORM_ELIGIBLE" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true">
+        <comp-field-label><![CDATA[salaryEligible]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="salaryTab" isCustomField="false" isVisible="true" useFor="salary" readOnly="false" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true">
+        <comp-field-label><![CDATA[Compensation Planning]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="salaryAction" isCustomField="false" isVisible="true" useFor="salary" readOnly="false" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true">
+        <comp-field-label><![CDATA[Comments]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="executiveAction" isCustomField="false" isVisible="true" useFor="stock" readOnly="false" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true">
+        <comp-field-label><![CDATA[Action]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="moreToAllocate" isCustomField="false" isVisible="true" useFor="salary" readOnly="false" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true">
+        <comp-field-label><![CDATA[Remaining Amount]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="budgetPlannedTotal" isCustomField="false" isVisible="false" useFor="salary" readOnly="false" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true" exportable="false">
+        <comp-field-label><![CDATA[Total Spent]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="budget" isCustomField="false" isVisible="true" useFor="salary" readOnly="false" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true">
+        <comp-field-label><![CDATA[Funding by Level]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="executiveRuleViolation" isCustomField="false" isVisible="true" useFor="salary" readOnly="true" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true">
+        <comp-field-label><![CDATA[Exceptions]]></comp-field-label>
+      </comp-field-definition>
+      <comp-field-definition id="salaryNote" isCustomField="false" isVisible="true" useFor="salary" readOnly="false" hidePercentage="false" hideAmount="false" percentageReadOnly="false" reloadable="true">
+        <comp-field-label><![CDATA[Salary Notes]]></comp-field-label>
+      </comp-field-definition>
+      <comp-pay-matrix >
+        <comp-pay-matrix-name>2017_Salary_Pay_Ranges</comp-pay-matrix-name>
+      </comp-pay-matrix>
+      <comp-currency-conv-table>
+        <comp-currency-conv-table-name>2017_Exchange_Rates</comp-currency-conv-table-name>
+      </comp-currency-conv-table>
+      <comp-stock-value-table>
+        <comp-stock-value-table-name>2015_Stock_Values</comp-stock-value-table-name>
+      </comp-stock-value-table>
+      <comp-budget-rule useFor="all" allowExceed="warn" allowSaveOnExceed="false">
+        <budget-exceed-warn-message><![CDATA[Allocation total exceeds budget, do you want to save?]]></budget-exceed-warn-message>
+      </comp-budget-rule>
+      <comp-rating-source useFor="salary" form-id="1054" is-default="false" completed-only="false" use-calculated-rating="false" import-from-assignment="false" scaleId="MGMT-Intl Overall Rating" rating-source="PM">
+      </comp-rating-source>
+      <comp-rating-source useFor="salary" form-id="1056" is-default="false" completed-only="false" use-calculated-rating="false" import-from-assignment="false" scaleId="MGMT-Intl Overall Rating" rating-source="PM">
+      </comp-rating-source>
+      <comp-rating-source useFor="salary" form-id="1055" is-default="false" completed-only="false" use-calculated-rating="false" import-from-assignment="false" scaleId="MGMT-Intl Overall Rating" rating-source="PM">
+      </comp-rating-source>
+      <comp-rating-source useFor="salary" form-id="1155" is-default="false" completed-only="false" use-calculated-rating="false" import-from-assignment="false" scaleId="MGMT-Intl Overall Rating" rating-source="PM">
+      </comp-rating-source>
+      <comp-rating-input mode="dropdown" scaleId="Performance Evaluation" disableIfPMRatingExist="false" />
+      <comp-display showRuleOnMouseOver="true">
+        <comp-page-size>10</comp-page-size>
+        <comp-guideline-pattern>low - high</comp-guideline-pattern>
+        <comp-payguide-pattern>min - max</comp-payguide-pattern>
+        <comp-stock-guideline-pattern>low - high</comp-stock-guideline-pattern>
+        <comp-stock-share-info>
+          <comp-stock-first-col-label>Units</comp-stock-first-col-label>
+          <comp-stock-second-col-label>Value ($)</comp-stock-second-col-label>
+        </comp-stock-share-info>
+        <comp-default-sort field="userName" order="asc"></comp-default-sort>
+      </comp-display>
+      <comp-instruction useFor="summary"><![CDATA[<font size="2">Review the final figure for each component of the compensation plan for your group.</font>]]></comp-instruction>
+      <comp-instruction useFor="stock"><![CDATA[This page is used for Long Term Incentive allocations.]]></comp-instruction>
+      <comp-instruction useFor="bonus"><![CDATA[Use this grid to plan or allocate bonus for your group. Click on the Edit icon for more details about each member's bonus component. A proposed allocation is suggested by the system, based on each team member's goal attainments and weighting. You can adjust the calculated amount using the Adjustment field. 
+<P></P><B>Note that our Company Performance for 2010 was 125% of target, and individual targets reflect this company performance.</B> ]]></comp-instruction>
+      <comp-instruction useFor="salary"><![CDATA[<div>This form is used to produce Compensation Statements for all International employees.<br><br>The Compensation Statement logic will use the imported fields, unless an Override value is entered.<br><ul><li>Override text values will be used on the Compensation Statement if the Override field is not blank</li><li>Override numeric values will be used on the Compensation Statement as follows:</li><ul><li><i>If a numeric Override field contains a negative number (&lt;0), a <b>zero </b>will be used on the Compensation Statement</i></li><li>If a numeric Override field contains a positive number (&gt;0), that value will be used on the Compensation Statement</li><li>If a numeric Override field contains a zero (=0), the Override value will be ignored on the Compensation Statement</li></ul></ul></div><div><br></div>]]></comp-instruction>
+        <comp-calculation lumpSumInSalaryBudget="false" fiscalYearEnd="2017-12-31" autoCalcBudgetForSalary="false" autoCalcBudgetForBonus="true" autoCalcBudgetForStock="false">
+          <raise-prorating-calc useFor="merit" applyMultipleRounding="false"/>
+          <compa-ratio-calc onWhatAvg="grade"></compa-ratio-calc>
+          <lumpsum-calc basedOn="CurrentSalary"></lumpsum-calc>
+          <lumpsum2-calc basedOn="CurrentSalary"></lumpsum2-calc>
+          <merit-calc basedOn="CurrentSalary"></merit-calc>
+          <final-pay-grade useFor="finalRatio"/>
+          <proration-calc useFor="raise">
+          <import-proration-calc/>
+            </proration-calc>
+          <proration-calc useFor="salary">
+          <import-proration-calc/>
+            </proration-calc>
+        </comp-calculation>
+      <comp-plan-creation rollup-users="0"/>
+      <comp-manager-hierarchy type="3"/>
+      <comp-budget-override override="false"/>
+    </comp-config>
+  </sf-compensation>
+</sf-form>

@@ -3407,6 +3407,17 @@
                 </td>
               </tr>
             </table>
+            <br></br>
+            <br></br>
+            <span style="color: #959595; font-size: 9x;">
+              All amounts stated do not represent any promise of future compensation nor as a promise of continuing employment. Actual salary is expressed as an annual amount. The value of the Annual Bonus is calculated as a percentage of based salary earned per eligible pay period. Bonuses are subject to Company achievement, are prorated based on eligibility, and are at the discretion of the Company. Refer to the Company Performance Incentive Plan for details.
+              <p>
+              The information presented in this document only summarizes compensation, benefits, programs, and policies made available by your employer. For full details, you should consult the summary plan descriptions, summary of material modifications, or the official plan, policy, guideline, or program documents. In all cases, the official plan, policy, guideline, or program documents govern and are the final authority on the terms of the plans, policies, guidelines, and programs. AT&amp;T and its affiliated companies reserve the right to terminate or amend any and all benefit plans, policies, guidelines, and programs at any time and for any reason. Participation is neither a contract nor a guarantee of future employment.</p>
+              <p>
+              This statement may not reflect all of your compensation and benefits, for full compensation and benefits information please refer to your applicable plan, program, or policy documents and financial statements including your payroll statements. </p>
+
+            
+            </span>
 
             <br></br>
             <br></br>
